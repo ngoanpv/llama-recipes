@@ -25,4 +25,5 @@ class alpaca_dataset:
     dataset: str = "alpaca_dataset"
     train_split: str = "train"
     test_split: str = "val"
-    data_path: str = "ft_datasets/alpaca_data.json"
+    data_path: str = "/content/jsonsamplesplit_vi_mix_tvpl_alpaca.json"
+    test_path: str = "/content/jsontestsamplesplit_vi_mix_tvpl_alpaca.json"
